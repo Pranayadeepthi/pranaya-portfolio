@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Pranaya Deepthi Thota</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Pranaya Deepthi</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="page-header">
+            <h1>Contact Me</h1>
+            <p class="section-subtitle">Get in touch for opportunities and collaborations</p>
+        </section>
+
+        <section class="contact-grid">
+            <div class="card contact-info-card">
+                <h2>Let's Connect</h2>
+                <p class="contact-desc">
+                    I am open to opportunities, internships and entry-level roles in IT and Data Analytics.
+                </p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:example@domain.com">pranayadeepthi.thota@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 XXXXXXXXXX</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="fab fa-linkedin"></i></div>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="fab fa-github"></i></div>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card contact-form-card">
+                <form id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Your Full Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Your Email Address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" class="form-control" placeholder="Write your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-paper-plane"></i> Send Message</button>
+                    <div id="formFeedback" class="form-feedback"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Pranaya Deepthi Thota. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
